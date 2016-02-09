@@ -26,7 +26,7 @@ body {
 	background-color: #f2f2f2;
 }
 .color-bg{
-	background-color:#F05557;
+	background-image: url("../img/twkn1.png")
 }
 .blue-bg{
 	background-color: #2AAFC3;
@@ -90,6 +90,7 @@ footer {
 	float: left;
 	margin-right: 10px;
 	font-size: 24px;
+	background-color: #F05557;
 	color: #FAC928;
 }
 .navbar-brand {
@@ -105,7 +106,7 @@ footer {
 	z-index: 100;
 	top: 0px;
 	width: 100%;
-	background:transparent;
+	background:#F05557;
 	border-color: transparent;
 	padding-top: 20px;
 	-webkit-transition: background 0.3s ease-out;
