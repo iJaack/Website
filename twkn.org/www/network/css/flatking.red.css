@@ -1,12 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Lato', sans-serif;
-	font-weight: 300; 
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 300;
 }
 p{
-	font-family: 'Lato', sans-serif;
-	font-weight: 300; 
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 300;
 	font-size: 18px;
 	line-height: 24px;
 	margin-bottom: 20px;
@@ -32,7 +32,7 @@ body {
 	background-color: #2AAFC3;
 }
 .red-bg{
-	background-color: #F05557;
+	background-color: #FF0000;
 }
 .yelow-bg{
 	background-color: #F9C828;
@@ -117,7 +117,7 @@ footer {
 .navbar-inverse .navbar-brand	{
 	color: #FFF;
 }
-.navbar-inverse .navbar-nav>li>a:hover, 
+.navbar-inverse .navbar-nav>li>a:hover,
 .navbar-inverse .navbar-nav>li>a:focus,
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
@@ -144,7 +144,7 @@ h4.media-heading {
 	padding: 0;
 }
 .section.section-pricing .pricing-table tr td:first-child {
- 
+
 	background-color: #FFF;
 }
 .section.section-pricing .pricing-table table {
@@ -406,7 +406,7 @@ h4.media-heading {
 }
 
 .img-box:hover .hover-mask2{
-	opacity:.5; 
+	opacity:.5;
 	cursor: pointer;
 	-o-transition:.1s;-ms-transition:.1s;-moz-transition:.1s;-webkit-transition:.1s;transition:.1s;
 }
@@ -496,7 +496,7 @@ h4.media-heading {
 	-moz-transition: all 300ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
 	-ms-transition: all 300ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
 	-o-transition: all 300ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
-	transition: all 300ms cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+	transition: all 300ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
 }
 .like a span {
 	font-size: 12px;
@@ -518,11 +518,11 @@ h4.media-heading {
 	-moz-transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000);
 	-ms-transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000);
 	-o-transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000);
-	transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+	transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000);
 }
-.like a.love {	
+.like a.love {
 	color: #FF4F41;
-}	
+}
 .work.filtered {
 	display:none;
 	cursor:default;
@@ -683,7 +683,7 @@ h4.media-heading {
 	box-shadow:none;
 	margin:0;
 	padding:0;
-	position:absolute; 
+	position:absolute;
 	top:0;
 	left: 0;
 	width:100%;
@@ -752,16 +752,16 @@ body.modal-open {
 	-ms-user-select: none;
 	user-select: none;
 	z-index:1;
- 	position: relative; 
- 	overflow: hidden; 
-	
+ 	position: relative;
+ 	overflow: hidden;
+
 }
 .flexslider .slides img {
-	width: 100%;max-width: 800px; display: block;	
+	width: 100%;max-width: 800px; display: block;
 }
 .flexslider .slides {
-	position: relative; 
-	overflow: hidden;	 
+	position: relative;
+	overflow: hidden;
 }
 .slides li {
 	float: left;
@@ -808,11 +808,11 @@ body.modal-open {
 	text-decoration:none;
 
 }
-.flex-direction-nav a:hover {	
+.flex-direction-nav a:hover {
 	background:#363B46;
 	color: #FFF;
 }
-.flex-direction-nav .flex-disabled {	
+.flex-direction-nav .flex-disabled {
 	display:none;
 }
 .flexslider:hover .flex-next {
@@ -860,7 +860,7 @@ body.modal-open {
 	font-size: 16px;
 	outline: none;
 }
-.lb_wrap .lb_label.top, 
+.lb_wrap .lb_label.top,
 .lb_wrap .lb_label.bottom {
 	left: 66px !important;
 }
@@ -952,7 +952,7 @@ body.modal-open {
 	vertical-align:top;
 	border:2px solid #FFF;
 }
-#contact-form .form-control:focus, 
+#contact-form .form-control:focus,
 .input-group .form-control:focus {
 	outline:none;
 	border:2px solid #F05557;
@@ -1065,7 +1065,7 @@ body.modal-open {
 	text-decoration: none;
 }
 .social-links li a i{
-	
+
 }
 .social-links li a:hover {
 	color:#F05557;
@@ -1105,14 +1105,14 @@ body.modal-open {
 }
 
 /* ------------------------------ Media -------------------------- */
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
 	.text-col,
 	.text-col2,
 	.cta-message {
 		text-align: center;
 	}
  }
- @media (max-width: 992px) { 
+ @media (max-width: 992px) {
  	.cta-message {
 		text-align: center;
 	}
@@ -1157,4 +1157,12 @@ body.modal-open {
 		width: 50%;
 		/* 6 columns */
 	}
+}
+
+/*----------------MailChimp form ------------------------------------ */
+
+#mc_embed_signup {
+  clear:left;
+  font:100% Helvetica,Arial,sans-serif;
+  width:100%:
 }
